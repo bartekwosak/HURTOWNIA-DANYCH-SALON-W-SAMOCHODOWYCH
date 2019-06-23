@@ -1,0 +1,180 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>NSPD_PROJEKT_SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>SK7fDpsUE9VKxYmKOFbuYuV+9xY=19.11.2018 12:45:1425.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>hl7tq9yxs5/Q3PCY9wk4c8ylWlg=20.11.2018 19:50:2625.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ymOV4lseYJXRB4G/HNos1NafjP0=20.11.2018 19:35:2625.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Dzien</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KbmXvwKqan+oYJyT8k5zve7STzE=20.11.2018 19:36:0525.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Kategoria Klienta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1yslPi/29lWdInLH09uq6Y79AI8=20.11.2018 19:36:2225.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Klient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s57sMynB3DUzKXkiF6QQEt4S5Pc=20.11.2018 19:37:0425.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Kwartal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WuCy1v686OoDnMn1XiQSK59C1uo=20.11.2018 19:37:1525.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Miejscowosc</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UFGs2dPn12n3WomMC406iONaSuk=20.11.2018 19:37:4825.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Miesiac</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>D1Z4Jnh9NviKGvCWNFHaDbr//5g=20.11.2018 19:38:3725.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Powiat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rq8AePtFOV131oFLzgP3/6qvQj8=21.11.2018 17:29:0225.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Pracownik</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Bh5OeY3OoyUbP52jY1bx0V1Rqb8=20.11.2018 19:39:2525.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Rok</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AqHscKRUWetoFjSAKu4jL3XDdgs=24.11.2018 19:10:1725.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Salon</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FqVYyKAiPz2oeNH2jM4Zw6NjQDI=20.11.2018 19:39:5125.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Stanowisko</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+KWHkZq1mRSjA7ratOp9nHC46r8=20.11.2018 19:40:0225.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Typ Uslugi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9IZrbz5nhuO7QJ1c9m3GwtAUsbI=20.11.2018 19:40:1525.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Wlasciciel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>a1dY60RUMkduIDSzyasJVPM9RTU=20.11.2018 19:40:2325.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>Wojewodztwo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Rk3RlSnX3ZIDkKRXZvQYAUsGXeg=24.11.2018 19:07:5925.11.2018 21:37:08F5bW1KlwOLXdc3Q9IDWBIiDX30s=20.11.2018 20:16:3825.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WM93Iei1d6XVwZXPpWQkVOOVLXs=21.11.2018 00:27:0225.11.2018 21:37:08+dxXeQMIxqPSu/yh5OuoRjQbd/w=20.11.2018 20:33:4625.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0e6/FkpIsmvExgpzX1+J4MTtlyM=24.11.2018 19:07:5925.11.2018 21:37:08GslJO2pPMdFgirBt4gBSELaq+Zw=20.11.2018 21:15:2625.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD KOSTKA A3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5/nNPWlMbdw5Y2Njo9UrvGr7ANw=21.11.2018 17:47:0225.11.2018 21:37:08UwrEhdkDJxpiUQaEbn5bXzPL1yA=21.11.2018 14:21:0425.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>tNfGH3071yOnAcy8b2ouONWyzqg=24.11.2018 19:07:5925.11.2018 21:37:08aUhquJyvhxa1XjGiZyLc35pr8Ps=21.11.2018 17:33:4825.11.2018 21:37:08</TimeStamp>
+        <ID>
+          <String>NSPD PROJEKT 3</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>v/yrRehW8gyD+/pMjYvAQoNETxM=19.11.2018 12:44:0725.11.2018 21:37:08</TimeStamp>
+      <ID>
+        <String>NSPD_PROJEKT_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-11-25T20:43:48.613333Z</LastDeployed>
+</DeploymentSnapshot>
